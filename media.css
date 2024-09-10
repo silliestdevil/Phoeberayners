@@ -1,0 +1,648 @@
+
+
+.grid-container2 {
+    display: grid;
+    grid-template-areas:
+    'item1'
+    'item2'
+    'item3'
+    'item6'
+    'item7'
+    'item8'
+    'item9'
+    'item10';  
+    grid-gap: 0px;
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+  }
+
+ 
+  
+  .grid-container2 > div {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 20px;
+   
+  }
+
+  .item1 { grid-area: item1; }
+  .item2 { grid-area: item2; } 
+  .item3 { grid-area: item3; }
+  .item6 { grid-area: item6; }
+  .item7 { grid-area: item7; }
+  .item8 { grid-area: item8; }
+  .item9 { grid-area: item9; }
+  .item10 { grid-area: item10; }
+
+  .helps {
+    padding-top: 3000px;
+  }
+
+
+.carousel-control-next {
+  width: 10px; /* Change width */
+  border-radius: 50%; /* Make it round */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+
+.carousel-control-next-icon {
+  filter: invert(1); /* Change icon color to white */
+  width: 5px; /* Change icon width */
+  height: 5px; /* Change icon height */
+  
+
+
+}
+
+
+/* Adjust the positioning if needed */
+.carousel-control-next:hover {
+background-color: none;
+color: #000;
+}
+
+.carousel-control-prev {
+  width: 20px; /* Change width */
+  border-radius: 50%; /* Make it round */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #932b2b;
+  background-color: aqua;
+}
+
+.carousel-control-prev-icon {
+  filter: invert(1); /* Change icon color to white */
+  width: 5px; /* Change icon width */
+  height: 5px; /* Change icon height */
+
+}
+
+
+/* Adjust the positioning if needed */
+.carousel-control-prev:hover {
+background-color: none;
+color: #000;
+}
+
+
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1500px ) {
+  .item1 img, .item2 img, .item3 img, .item6 img, .item7 img, .item8 img, .item9 img {
+    display: block;          /* Make the image a block-level element */
+    margin: 0 auto;          /* Center the image horizontally */
+    max-width: 100%;         /* Ensure the image does not exceed its container's width */
+    height: auto;            /* Maintain the aspect ratio */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+video{
+  width: 450px;
+  padding-bottom: 12px;
+}
+
+.footers{
+  text-align: center; 
+  font-size: 11px; 
+  color: #000;
+  font-family: "palatino";
+  color: rgb(78, 36, 36);
+ }
+ 
+ .footers a{
+   text-align: center; 
+   font-size: 11px; 
+   color: #000;
+   font-family: "palatino";
+   color: rgb(78, 36, 36);
+ text-decoration: none;
+ }
+
+ .lets{
+  border-top: 1px solid black; 
+  width:80%; 
+  margin: 0 auto; 
+  margin-top: 5px; 
+  text-align: center;  
+  font-size: 13px; 
+  color: #000;
+  font-family: "palatino";
+  color: rgb(78, 36, 36);
+}
+
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1200px ) {
+  .item1 img, .item2 img, .item3 img, .item6 img, .item7 img, .item8 img, .item9 img {
+    display: block;          /* Make the image a block-level element */
+    margin: 0 auto;          /* Center the image horizontally */
+    max-width: 100%;         /* Ensure the image does not exceed its container's width */
+    height: auto;            /* Maintain the aspect ratio */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+video{
+  width: 410px;
+  padding-bottom: 12px;
+}
+
+.footers{
+  text-align: center; 
+  font-size: 12px; 
+  color: #000;
+  font-family: "palatino";
+  color: rgb(78, 36, 36);
+ }
+ 
+ .footers a{
+   text-align: center; 
+   font-size: 12px; 
+   color: #000;
+   font-family: "palatino";
+   color: rgb(78, 36, 36);
+ text-decoration: none;
+ }
+
+ .lets{
+  border-top: 1px solid black; 
+  width:80%; 
+  margin: 0 auto; 
+  margin-top: 5px; 
+  text-align: center;  
+  font-size: 13px; 
+  color: #000;
+  font-family: "palatino";
+  color: rgb(78, 36, 36);
+}
+
+
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px ) { 
+
+.grid-container2 {
+  display: grid;
+  grid-template-areas:
+  'item1'
+  'item2'
+  'item3'
+  'item6'
+  'item7'
+  'item8'
+  'item9'
+  'item10';  
+  grid-gap: 0px;
+  background-color: rgb(255, 255, 255);
+  padding: 3%;
+}
+
+  .item1 img, .item2 img, .item3 img, .item6 img, .item7 img, .item8 img, .item9 img {
+    display: block;          /* Make the image a block-level element */
+    margin: 0 auto;          /* Center the image horizontally */
+    max-width: 100%;         /* Ensure the image does not exceed its container's width */
+    height: auto;            /* Maintain the aspect ratio */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+video{
+  width: 390px;
+  padding-bottom: 12px;
+}
+
+.footers{
+  text-align: center; 
+  font-size: 12px; 
+  color: #000;
+  font-family: "palatino";
+  color: rgb(78, 36, 36);
+ }
+ 
+ .footers a{
+   text-align: center; 
+   font-size: 12px; 
+   color: #000;
+   font-family: "palatino";
+   color: rgb(78, 36, 36);
+ text-decoration: none;
+ }
+
+ .lets{
+  border-top: 1px solid black; 
+  width:80%; 
+  margin: 0 auto; 
+  margin-top: 5px; 
+  text-align: center;  
+  font-size: 13px; 
+  color: #000;
+  font-family: "palatino";
+  color: rgb(78, 36, 36);
+}
+
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px ) {
+
+
+  .grid-container2 {
+    display: grid;
+    grid-template-areas:
+    'item1'
+    'item2'
+    'item3'
+    'item6'
+    'item7'
+    'item8'
+    'item9'
+    'item10';  
+    grid-gap: 0px;
+    background-color: rgb(255, 255, 255);
+    padding: 0%;
+  }
+  
+    .item1 img, .item2 img, .item3 img, .item6 img, .item7 img, .item8 img, .item9 img {
+      display: block;          /* Make the image a block-level element */
+      margin: 0 auto;          /* Center the image horizontally */
+      width: 400px;       /* Ensure the image does not exceed its container's width */
+      height: auto;            /* Maintain the aspect ratio */
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 20px;
+  }
+  
+  video{
+    width: 340px;
+    padding-bottom: 12px;
+   
+  }
+  
+  .footers{
+    text-align: center; 
+    font-size: 12px; 
+    color: #000;
+    font-family: "palatino";
+    color: rgb(78, 36, 36);
+   }
+   
+   .footers a{
+     text-align: center; 
+     font-size: 12px; 
+     color: #000;
+     font-family: "palatino";
+     color: rgb(78, 36, 36);
+   text-decoration: none;
+   }
+  
+   .lets{
+    border-top: 1px solid black; 
+    width:340px; 
+    margin: 0 auto; 
+    margin-top: 5px; 
+    text-align: center;  
+    font-size: 13px; 
+    color: #000;
+    font-family: "palatino";
+    color: rgb(78, 36, 36);
+  }
+  
+  }
+   
+  @media screen and (min-width: 768px) and (max-width: 900px ) {
+
+
+    .grid-container2 {
+      display: grid;
+      grid-template-areas:
+      'item1'
+      'item2'
+      'item3'
+      'item6'
+      'item7'
+      'item8'
+      'item9'
+      'item10';  
+      grid-gap: 0px;
+      background-color: rgb(255, 255, 255);
+      padding: 0%;
+    }
+    
+      .item1 img, .item2 img, .item3 img, .item6 img, .item7 img, .item8 img, .item9 img {
+        display: block;          /* Make the image a block-level element */
+        margin: 0 auto;          /* Center the image horizontally */
+        width: 360px;       /* Ensure the image does not exceed its container's width */
+        height: auto;            /* Maintain the aspect ratio */
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+    }
+    
+    video{
+      width: 300px;
+      padding-bottom: 12px;
+     
+    }
+    
+    .lets{
+      border-top: 1px solid black; 
+      width:300px; 
+      margin: 0 auto; 
+      margin-top: 5px; 
+      text-align: center;  
+      font-size: 13px; 
+      color: #000;
+      font-family: "palatino";
+      color: rgb(78, 36, 36);
+    }
+    
+    
+    .footers{
+      text-align: center; 
+      font-size: 12px; 
+      color: #000;
+      font-family: "palatino";
+      color: rgb(78, 36, 36);
+     }
+     
+     .footers a{
+       text-align: center; 
+       font-size: 12px; 
+       color: #000;
+       font-family: "palatino";
+       color: rgb(78, 36, 36);
+     text-decoration: none;
+     }
+    
+    
+    }
+     
+    @media screen and (min-width: 650px) and (max-width:768px ) {
+
+
+      .grid-container2 {
+        display: grid;
+        grid-template-areas:
+        'item1'
+        'item2'
+        'item3'
+        'item6'
+        'item7'
+        'item8'
+        'item9'
+        'item10';  
+        grid-gap: 0px;
+        background-color: rgb(255, 255, 255);
+        padding: 0%;
+      }
+      
+        .item1 img, .item2 img, .item3 img, .item6 img, .item7 img, .item8 img, .item9 img {
+          display: block;          /* Make the image a block-level element */
+          margin: 0 auto;          /* Center the image horizontally */
+          width: 100%;       /* Ensure the image does not exceed its container's width */
+          height: auto;            /* Maintain the aspect ratio */
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-bottom: 20px;
+      }
+      
+      video{
+        width:495px;
+        padding-bottom: 12px;
+       
+      }
+      
+      .lets{
+        border-top: 1px solid black; 
+        width:500px; 
+        margin: 0 auto; 
+        margin-top: 5px; 
+        text-align: center;  
+        font-size: 13px; 
+        color: #000;
+        font-family: "palatino";
+        color: rgb(78, 36, 36);
+        
+      }
+      
+      
+      .footers{
+        text-align: center; 
+        font-size: 12px; 
+        color: #000;
+        font-family: "palatino";
+        color: rgb(78, 36, 36);
+       }
+       
+       .footers a{
+         text-align: center; 
+         font-size: 12px; 
+         color: #000;
+         font-family: "palatino";
+         color: rgb(78, 36, 36);
+       text-decoration: none;
+       }
+      
+      
+      }
+
+          
+    @media screen and (min-width: 450px) and (max-width:650px ) {
+
+
+      .grid-container2 {
+        display: grid;
+        grid-template-areas:
+        'item1'
+        'item2'
+        'item3'
+        'item6'
+        'item7'
+        'item8'
+        'item9'
+        'item10';  
+        grid-gap: 0px;
+        background-color: rgb(255, 255, 255);
+        padding: 0%;
+      }
+      
+        .item1 img, .item2 img, .item3 img, .item6 img, .item7 img, .item8 img, .item9 img {
+          display: block;          /* Make the image a block-level element */
+          margin: 0 auto;          /* Center the image horizontally */
+          width: 75%;       /* Ensure the image does not exceed its container's width */
+          height: auto;            /* Maintain the aspect ratio */
+          padding-left: 0px;
+          padding-right: 0px;
+          padding-bottom: 20px;
+      }
+      
+      video{
+        width:75%;
+        padding-bottom: 12px;
+       
+      }
+      
+      .lets{
+        border-top: 1px solid black; 
+        width:75%; 
+        margin: 0 auto; 
+        margin-top: 5px; 
+        text-align: center;  
+        font-size: 13px; 
+        color: #000;
+        font-family: "palatino";
+        color: rgb(78, 36, 36);
+        
+      }
+      
+      
+      .footers{
+        text-align: center; 
+        font-size: 12px; 
+        color: #000;
+        font-family: "palatino";
+        color: rgb(78, 36, 36);
+       }
+       
+       .footers a{
+         text-align: center; 
+         font-size: 12px; 
+         color: #000;
+         font-family: "palatino";
+         color: rgb(78, 36, 36);
+       text-decoration: none;
+       }
+      
+      
+      }
+
+      @media screen and (min-width: 300px) and (max-width:450px ) {
+
+
+        .grid-container2 {
+          display: grid;
+          grid-template-areas:
+          'item1'
+          'item2'
+          'item3'
+          'item6'
+          'item7'
+          'item8'
+          'item9'
+          'item10';  
+          grid-gap: 0px;
+          background-color: rgb(255, 255, 255);
+          padding: 0%;
+        }
+        
+          .item1 img, .item2 img, .item3 img, .item6 img, .item7 img, .item8 img, .item9 img {
+            display: block;          /* Make the image a block-level element */
+            margin: 0 auto;          /* Center the image horizontally */
+            width: 75%;       /* Ensure the image does not exceed its container's width */
+            height: auto;            /* Maintain the aspect ratio */
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-bottom: 20px;
+        }
+        
+        video{
+          width: 75%;
+          padding-bottom: 12px;
+         
+        }
+        
+        .lets{
+          border-top: 1px solid black; 
+          width:75%; 
+          margin: 0 auto; 
+          margin-top: 5px; 
+          text-align: center;  
+          font-size: 13px; 
+          color: #000;
+          font-family: "palatino";
+          color: rgb(78, 36, 36);
+          
+        }
+        
+        
+        .footers{
+          text-align: center; 
+          font-size: 12px; 
+          color: #000;
+          font-family: "palatino";
+          color: rgb(78, 36, 36);
+         }
+         
+         .footers a{
+           text-align: center; 
+           font-size: 12px; 
+           color: #000;
+           font-family: "palatino";
+           color: rgb(78, 36, 36);
+         text-decoration: none;
+         }
+        
+        
+        }
+       
+
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.grid-container2 .item1,
+.grid-container2 .item2,
+.grid-container2 .item3,
+.grid-container2 .item6,
+.grid-container2 .item7,
+.grid-container2 .item8, 
+.grid-container2 .item9,
+.grid-container2 .item10 {
+  opacity: 0; /* Start with items hidden */
+  animation: fadeIn 1s ease forwards;
+}
+
+.grid-container2 .item1 {
+  animation-delay: 0s; /* No delay for the first item */
+}
+
+.grid-container2 .item2 {
+  animation-delay: 0.5s; /* 1 second delay */
+}
+
+.grid-container2 .item3 {
+  animation-delay: 1s; /* 2 seconds delay */
+}
+
+.grid-container2 .item6 {
+  animation-delay: 1.5s; /* 3 seconds delay */
+}
+
+.grid-container2 .item7 {
+  animation-delay: 2s; /* 4 seconds delay */
+}
+
+.grid-container2 .item8 {
+  animation-delay: 2.5s; /* 5 seconds delay */
+}
+
+.grid-container2 .item9 {
+  animation-delay: 3s; /* 5 seconds delay */
+}
+
+

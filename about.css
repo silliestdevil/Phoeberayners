@@ -1,0 +1,419 @@
+
+
+
+.des {
+    font-size: 13px;
+    text-align: left;  
+    font-family: "palatino";
+    color: rgb(78, 36, 36);
+}
+ 
+.item1 a, .item12 a {
+  font-size: 13px;
+  text-align: left;  
+  float: left;
+  padding-bottom: 13px;
+  font-family: "palatino";
+ color: rgb(78, 36, 36); 
+  text-decoration: none;
+}
+
+.item3 a {
+  font-size: 13px;
+  text-align: left;  
+  float: left;
+  font-family: "palatino";
+ color: rgb(78, 36, 36); 
+  text-decoration: none;
+}
+
+.item1 a:hover, .item12 a:hover {
+  font-size: 13px;
+  text-align: left;  
+  float: left;
+  padding-bottom: 13px;
+  font-family: "palatino";
+  text-decoration: none;
+ color: rgb(172, 107, 107);
+ 
+}
+
+.item3 a:hover{
+  font-size: 13px;
+  text-align: left;  
+  float: left;
+  font-family: "palatino";
+  color: rgb(172, 107, 107);
+  text-decoration: none;
+
+}
+
+.note {
+  font-size: 13px;
+  color: rgb(0, 0, 0);
+  text-align: left;  
+  font-family: "palatino";
+  color: rgb(78, 36, 36);
+}
+
+
+
+.about{
+    border-top: solid black 1px ;
+    font-size: 13px;
+    color: rgb(78, 36, 36);
+    float: left;  
+    font-family: "palatino";
+    padding-top: 10px;
+}
+
+.footers{
+  text-align: center; 
+  font-size:11px; 
+  color: #000;
+  font-family: "palatino";
+  color: rgb(78, 36, 36);
+ }
+ 
+ .footers a{
+   text-align: center; 
+   font-size:11px;  
+   color: #000;
+   font-family: "palatino";
+   color: rgb(78, 36, 36);
+ text-decoration: none;
+ }
+
+ @media screen and (min-width: 1200px) and (max-width: 1500px ) {
+  
+  body{
+    overflow-y: hidden;
+   }
+   
+  .grid-container3 {
+    display: grid;
+    grid-template-areas:
+    'item1'
+    'item12'
+    'item3'
+    'item4'
+    'item5'
+    'item6' 
+    'item7' 
+    'item8' 
+    'item9' ;  
+    grid-gap: 0px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+  }
+  
+  
+    .grid-container3 > div {
+      background-color: rgb(255, 255, 255);
+      padding-left: 20px;
+      padding-right: 50px;
+     
+    }
+  
+    .item1 { grid-area: item1; }
+    .item12 { grid-area: item12; } 
+    .item3 { grid-area: item3; }
+    .item4 { grid-area: item4; }
+    .item5 { grid-area: item5; }
+    .item6 { grid-area: item6; }
+    .item7 { grid-area: item7; }
+    .item8 { grid-area: item8; }
+    .item9 { grid-area: item9; }
+  
+  
+  }
+ @media screen and (min-width: 1150px) and (max-width: 1200px ) {
+  body{
+    overflow-y: hidden;
+   }
+  
+  .grid-container3 {
+    display: grid;
+    grid-template-areas:
+    'item1'
+    'item12'
+    'item3'
+    'item4'
+    'item5'
+    'item6' 
+    'item7' 
+    'item8' 
+    'item9' ;  
+    grid-gap: 0px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 30px;
+  }
+  
+  
+    .grid-container3 > div {
+      background-color: rgb(255, 255, 255);
+      padding-left: 20px;
+      padding-right: 50px;
+     
+    }
+  
+    .item1 { grid-area: item1; }
+    .item12 { grid-area: item12; } 
+    .item3 { grid-area: item3; }
+    .item4 { grid-area: item4; }
+    .item5 { grid-area: item5; }
+    .item6 { grid-area: item6; }
+    .item7 { grid-area: item7; }
+    .item8 { grid-area: item8; }
+    .item9 { grid-area: item9; }
+  
+  
+  }
+  
+
+ @media screen and (min-width: 1100px) and (max-width:1150px ) {
+  body{
+    overflow-y: hidden;
+   }
+  
+  .des {
+    font-size: 11.5px;
+    text-align: left;  
+    font-family: "palatino";
+    color: rgb(78, 36, 36);
+}
+ 
+.item1 a, .item12 a {
+  font-size: 11.5px;
+  text-align: left;  
+  float: left;
+  padding-bottom: 13px;
+  font-family: "palatino";
+ color: rgb(78, 36, 36); 
+  text-decoration: none;
+}
+
+.item3 a {
+  font-size: 11.5px;
+  text-align: left;  
+  float: left;
+  font-family: "palatino";
+ color: rgb(78, 36, 36); 
+  text-decoration: none;
+}
+
+.item1 a:hover, .item12 a:hover, .item3 a:hover{
+  font-size: 11.5px;
+  text-align: left;  
+  float: left;
+  padding-bottom: 13px;
+  font-family: "palatino";
+  text-decoration: none;
+ color: rgb(172, 107, 107);
+ 
+}
+
+
+.note {
+  font-size: 11.5px;
+  color: rgb(0, 0, 0);
+  text-align: left;  
+  font-family: "palatino";
+  color: rgb(78, 36, 36);
+}
+
+
+
+.about{
+    border-top: solid black 1px ;
+    font-size: 11.5px;
+    color: rgb(78, 36, 36);
+    float: left;  
+    font-family: "palatino";
+    padding-top: 10px;
+}
+
+  .grid-container3 {
+    display: grid;
+    grid-template-areas:
+    'item1'
+    'item12'
+    'item3'
+    'item4'
+    'item5'
+    'item6' 
+    'item7' 
+    'item8' 
+    'item9' ;  
+    grid-gap: 0px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 40px;
+  }
+  
+  
+    .grid-container3 > div {
+      background-color: rgb(255, 255, 255);
+      padding-left: 20px;
+      padding-right: 50px;
+     
+    }
+  
+    .item1 { grid-area: item1; }
+    .item12 { grid-area: item12; } 
+    .item3 { grid-area: item3; }
+    .item4 { grid-area: item4; }
+    .item5 { grid-area: item5; }
+    .item6 { grid-area: item6; }
+    .item7 { grid-area: item7; }
+    .item8 { grid-area: item8; }
+    .item9 { grid-area: item9; }
+  
+  
+  }
+
+ @media screen and (min-width: 780px) and (max-width: 1100px ) {
+  
+  
+.grid-container3 {
+  display: grid;
+  grid-template-areas:
+  'item1'
+  'item12'
+  'item3'
+  'item4'
+  'item5'
+  'item6' 
+  'item7' 
+  'item8' 
+  'item9' ;  
+  grid-gap: 0px;
+  background-color: rgb(255, 255, 255);
+  padding-top: 20px;
+}
+
+
+  .grid-container3 > div {
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 50px;
+   
+  }
+
+  .item1 { grid-area: item1; }
+  .item12 { grid-area: item12; } 
+  .item3 { grid-area: item3; }
+  .item4 { grid-area: item4; }
+  .item5 { grid-area: item5; }
+  .item6 { grid-area: item6; }
+  .item7 { grid-area: item7; }
+  .item8 { grid-area: item8; }
+  .item9 { grid-area: item9; }
+
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 780px ) {
+  
+.grid-container3 {
+  display: grid;
+  grid-template-areas:
+  'item1'
+  'item12'
+  'item3'
+  'item4'
+  'item5'
+  'item6' 
+  'item7' 
+  'item8' 
+  'item9' ;  
+  grid-gap: 0px;
+  background-color: rgb(255, 255, 255);
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+  .grid-container3 > div {
+    background-color: rgb(255, 255, 255);
+   
+  }
+
+  .item1 { grid-area: item1; }
+  .item12 { grid-area: item12; } 
+  .item3 { grid-area: item3; }
+  .item4 { grid-area: item4; }
+  .item5 { grid-area: item5; }
+  .item6 { grid-area: item6; }
+  .item7 { grid-area: item7; }
+  .item8 { grid-area: item8; }
+  .item9 { grid-area: item9; }
+
+  
+.footers{
+  text-align: center; 
+  font-size: 11px; 
+  color: #000;
+  font-family: "palatino";
+  color: rgb(78, 36, 36);
+  padding-top: 20px;
+ }
+ 
+ 
+}
+
+
+
+
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.grid-container3 .item1,
+.grid-container3 .item12,
+.grid-container3 .item3,
+.grid-container3 .item4,
+.grid-container3 .item5,
+.grid-container3 .item6, 
+.grid-container3 .item7,
+.grid-container3 .item8,
+.grid-container3 .item9 {
+  opacity: 0; /* Start with items hidden */
+  animation: fadeIn 1s ease forwards;
+}
+
+.grid-container3 .item1 {
+  animation-delay: 0s; /* No delay for the first item */
+}
+
+.grid-container3 .item12 {
+  animation-delay: 0.5s; /* 1 second delay */
+}
+
+.grid-container3 .item3 {
+  animation-delay: 1s; /* 2 seconds delay */
+}
+
+.grid-container3 .item4 {
+  animation-delay: 1.5s; /* 3 seconds delay */
+}
+
+.grid-container3 .item5 {
+  animation-delay: 2s; /* 4 seconds delay */
+}
+
+.grid-container3 .item6 {
+  animation-delay: 2.5s; /* 5 seconds delay */
+}
+
+.grid-container3 .item7 {
+  animation-delay: 3s; /* 5 seconds delay */
+}
+
+.grid-container3 .item8 {
+  animation-delay: 3.5s; /* 5 seconds delay */
+}
